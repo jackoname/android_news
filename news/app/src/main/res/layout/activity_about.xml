@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/ntitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="\指导教师：王新胜\n\n作者：欧阳洪健\n学号：4191101009\n专业：软件工程\n\n\n小欧新闻\n 版本1.0.0\n(用于检验安卓学习成果)"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+         />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

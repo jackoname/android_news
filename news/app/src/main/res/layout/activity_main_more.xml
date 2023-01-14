@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/moretitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="中新网5月24日电 据《乌克兰真理报》23日报道，俄罗斯总统普京曾遭到暗杀。"
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/moretype"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="类型"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+           />
+
+        <TextView
+            android:id="@+id/timemore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="20226月26日"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/morecontext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="布达诺夫说，“有人企图暗杀普京……据说不久前他甚至遭到高加索代表的袭击，此为非公开信息，（这是一次）绝对失败的尝试，但它确实发生了……大约在两个月前”。
+
+　　布达诺夫重申，“（暗杀）失败了。这件事并未公开，但它确有其事”。"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:scrollbars="vertical" />
+</LinearLayout>
+
+

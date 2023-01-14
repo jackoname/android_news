@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="小欧新闻"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".activity.MainActivityChan"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivityMore"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityAbout"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityLook"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActiveDelete"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActiveNew"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActiveAdd"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityHome"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
